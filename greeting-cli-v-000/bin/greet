@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require_relative "../lib/greeting.rb"
+
+puts "What is your name?"
+name = gets.strip
+greeting(name)
+answer = gets.strip
+goodbye(name)
